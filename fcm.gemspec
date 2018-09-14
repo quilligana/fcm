@@ -5,7 +5,7 @@ require 'fcm/version'
 
 Gem::Specification.new do |s|
   s.name        = "fcm"
-  s.version     = AccountKit::VERSION
+  s.version     = FCM::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kashif Rasul", "Shoaib Burq"]
   s.email       = ["kashif@spacialdb.com", "shoaib@spacialdb.com"]

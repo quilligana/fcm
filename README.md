@@ -141,6 +141,10 @@ The guide to set up an iOS app to get notifications is here: [Setting up a FCM C
 
 ## ChangeLog
 
+### 0.0.3
+
+* Added ability to send to combinations of Topics (see the **Build send requests** secition [here](https://firebase.google.com/docs/cloud-messaging/ios/topic-messaging))
+
 ### 0.0.2
 
 * Fixed group messaging url.
