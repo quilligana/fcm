@@ -1,9 +1,11 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'fcm/version'
 
 Gem::Specification.new do |s|
   s.name        = "fcm"
-  s.version     = "0.0.2"
+  s.version     = AccountKit::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kashif Rasul", "Shoaib Burq"]
   s.email       = ["kashif@spacialdb.com", "shoaib@spacialdb.com"]
